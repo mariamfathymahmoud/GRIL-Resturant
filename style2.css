@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: rgb(207, 127, 22);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px ;
+    margin-right: 10px;
+    width: 100%;
+    position: fixed;
+}
+.logo{
+    color: aliceblue;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px;
+}
+.logo:hover{
+    color:coral;
+}
+.navigator{
+    
+    padding-top:20px;
+}
+.navigator a{
+    justify-content: space-between;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    padding:20px ;
+    margin:20px;
+}
+.navigator a:hover{
+    color:coral;
+}
+
+section{
+    padding:  300px 90px;
+}
+ .main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: url('eee.jpg') no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position-x: center;
+    backface-visibility: visible;
+    
+ }
+ .main p{
+    font-size: 20px;
+    color:white;
+    font-weight: bold;
+ }
+ .main h3{
+    color: black;
+    font-size: 50px;
+    padding-top: 20px;
+ }
+ .icons{
+    color: white;
+    font-size: 8em;
+    text-align: center;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    
+}
+.service{
+    padding-top: 50px;
+    background-color: rgb(243, 186, 112);
+}
+.content{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cards{
+        background-color: white;
+        width: 21.25em;
+        box-shadow: 0 5px 25px rgba(1 1 1/15%);
+        border-radius: 10px;
+        padding: 25px;
+        margin: 15px;
+    
+}
+.cards:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+.icon{
+    color:rgb(207, 127, 22);
+    font-size: 8em;
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    color:rgb(207, 127, 22); 
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.info p{
+    color: rgb(207, 127, 22);
+    font-size: 1.1em;
+}
+.menu{
+    padding-top: 50px;
+    background-color:white;
+    background: url('download (2).jfif') no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position-x: center;
+    backface-visibility: visible;
+}
+.menu img{
+    padding-top: 20px;
+    padding-left: 180px;
+    padding-right: 0px;
+}
+.staf{
+    padding-top: 50px;
+    background-color: rgb(243, 186, 112);
+}
+.staf img{
+    padding-left: 300px;
+    padding-top: 50px;
+    width: 600px;
+}
+.content2 h3{
+    display: flex;
+    font-size: 40px;
+    justify-items: center;
+    color: white;
+    padding-top: 20px;
+    padding-left: 300px;
+    color: rgb(207, 127, 22);
+}
+.contact{
+    padding-top: 50px;
+    background: url('images.jfif') no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position-x: center;
+    backface-visibility: visible;
+}
+.Book_now{
+    box-shadow: 0 5px 25px wheat;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+   
+}
+.Book_now:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+.name{
+   color: white;
+    margin-top: 20px;
+   font-size: 30px;
+   font-weight: bold;
+}
+.sum{
+    background-color:rgb(207, 127, 22); ;
+    margin-top: 20px;
+    font-size: 20px;
+    color: aliceblue;
+    padding: 8px;
+    border-radius: 8px;
+    
+}
+.sum:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease;
+    
+}
+.foot{
+    background-color: rgb(207, 127, 22);
+    justify-content: space-between;
+    padding: 40px;
+   
+}
+.con{
+    color: aliceblue;
+    justify-content: space-between;
+    font-size: 30px;
+}
